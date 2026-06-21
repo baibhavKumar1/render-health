@@ -14,5 +14,5 @@ jobs:
         run: |
           echo "Pinging server health endpoint..."
           # Use curl to request header and write out total time in seconds
-          RESPONSE_TIME=$(curl -s -o /dev/null -w "%{time_total}" "https://your-relay-server.onrender.com/health")
+          RESPONSE_TIME=$(curl -s -o /dev/null -w "%{time_total}" "https://render-health-rbx3.onrender.com/health")
           echo "Server responded in $RESPONSE_TIME seconds"
