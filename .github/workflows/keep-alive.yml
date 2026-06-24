@@ -3,7 +3,7 @@ name: Keep WebSocket Relay Warm
 on:
   schedule:
     # Runs every 10 minutes
-    - cron: '*/10 * * * *'
+    - cron: '*/2 * * * *'
   workflow_dispatch: # Allows manual trigger
 
 permissions:
